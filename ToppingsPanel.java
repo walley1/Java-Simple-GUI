@@ -1,7 +1,7 @@
 import java.awt.GridLayout;
 import javax.swing.*;
 /**
- * Part 3: This class will model the choices of toppings available for a sandwich. Users are not limited to just one option.
+ * This class will model the choices of toppings available for a sandwich.
  * @author Austin Walley
  * @version 11/18/21
 */
@@ -20,9 +20,6 @@ public class ToppingsPanel extends JPanel
     private JCheckBox mayoChk;
     private JCheckBox mustardChk;
 
-    /**
-     * Constructor
-    */
     public ToppingsPanel() 
     {
         super();
@@ -46,10 +43,6 @@ public class ToppingsPanel extends JPanel
         add(mustardChk);
     }
 
-    /**
-     * Instance method that takes no param and returns the cost of the toppings.
-     * @return total cost of toppings.
-    */
     public double getToppingCost() 
     {
         double total = 0.00;
