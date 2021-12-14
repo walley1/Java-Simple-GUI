@@ -1,7 +1,7 @@
 import java.awt.GridLayout;
 import javax.swing.*;
 /**
- * Part 2: This class will model the choices of meat available for a sandwich.
+ * This class will model the choices of meat available for a sandwich.
  * @author Austin Walley
  * @version 11/18/21
 */
@@ -21,9 +21,6 @@ public class MeatPanel extends JPanel
     private JRadioButton noneBtn;
     private ButtonGroup grp;
 
-    /**
-     * Constructor
-    */
     public MeatPanel() 
     {
         super();
@@ -56,10 +53,6 @@ public class MeatPanel extends JPanel
         add(noneBtn);
     }
 
-    /**
-     * Instance method that takes no param and returns the cost of the meat.
-     * @return cost of meat.
-    */
     public double getMeatCost() 
     {
         if (hamBtn.isSelected())
