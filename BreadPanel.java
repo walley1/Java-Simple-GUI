@@ -22,7 +22,7 @@ public class BreadPanel extends JPanel
     public BreadPanel() 
     {
         super();
-        // Sets layout
+      
         setLayout(new GridLayout(3, 1));
         
         // Creates buttons
