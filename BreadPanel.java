@@ -1,7 +1,7 @@
 import java.awt.GridLayout;
 import javax.swing.*;
 /**
- * Part 1: This class represents the 3 types of bread available to order.
+ * This class represents the 3 types of bread available to order.
  * @author Austin Walley
  * @version 11/18/21
 */
@@ -19,9 +19,6 @@ public class BreadPanel extends JPanel
     private JRadioButton glutenFreeBtn;
     private ButtonGroup grp;
        
-    /**
-     * Constructor
-    */
     public BreadPanel() 
     {
         super();
@@ -50,10 +47,6 @@ public class BreadPanel extends JPanel
         add(glutenFreeBtn);
     }
 
-    /**
-     * Instance method that takes no param and returns the cost of the bread.
-     * @return cost of breads.
-    */
     public double getBreadCost() 
     {
         if (whiteBtn.isSelected())
