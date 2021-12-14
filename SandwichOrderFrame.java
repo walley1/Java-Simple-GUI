@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 /**
- * Part 4: This class will build our frame containing our three Panel classes and add Listeners.
+ * This class will build our frame containing our three panel classes and add listeners.
  * @author Austin Walley
  * @version 11/18/21
 */
@@ -68,9 +68,6 @@ public class SandwichOrderFrame extends JFrame
         }
     }
        
-    /**
-     * The buildButtonPanel() method that takes no param and has no return.
-    */
     private void buildButtonPanel() 
     {
         buttonPanel = new JPanel();
@@ -88,9 +85,6 @@ public class SandwichOrderFrame extends JFrame
         buttonPanel.add(exitBtn);
     }
         
-    /**
-     * Constructor
-    */
     public SandwichOrderFrame() 
     {
         super();
